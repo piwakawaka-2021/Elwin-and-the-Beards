@@ -31,7 +31,7 @@ Cuisine:        String
 Minutes away:   Number
 Vegan:          Boolean
 Gluten Free:    Boolean
-
+Phone Number:   Number
 
 
 routes

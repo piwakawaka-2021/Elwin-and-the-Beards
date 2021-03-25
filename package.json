@@ -4,7 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --watchAll"
+        "start": "node index",
+        "dev": "nodemon index",
+        "test": "jest --watchAll",
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",
@@ -19,7 +22,8 @@
     "homepage": "https://github.com/piwakawaka-2021/Elwin-and-the-Beards#readme",
     "dependencies": {
         "express": "^4.17.1",
-        "express-handlebars": "^5.2.1"
+        "express-handlebars": "^5.2.1",
+        "express-router": "0.0.1"
     },
     "devDependencies": {
         "eslint": "7.9.0",

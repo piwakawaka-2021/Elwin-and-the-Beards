@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    justify-content: flex-start;
+    display: flex;
     color: #051014;
     font-family: Bellota;
     font-size: 2.5rem;

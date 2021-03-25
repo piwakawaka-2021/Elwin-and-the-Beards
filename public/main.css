@@ -15,6 +15,11 @@ body {
 }
 
 .footer-basic {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: Bellota;
+    color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: auto;
     bottom: 0;
@@ -26,6 +31,20 @@ body {
 }
 
 .form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: Bellota;
     padding: 20px;
+}
+
+.form-container .form-details .form-item {}
+
+.form-container .submit-button {
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid;
+    font-family: Bellota;
+    font-size: 20px;
+    padding: 10px;
 }

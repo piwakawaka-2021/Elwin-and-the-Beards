@@ -1,33 +1,20 @@
 body {
-    height: 80vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3AAFB9;
+    background-color: #3aafb9;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .header {
     display: flex;
+    text-align: center;
     color: #051014;
     font-family: Bellota;
     font-size: 2.5rem;
-}
-
-.footer-basic {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    font-family: Bellota;
-    color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-bottom: 10px;
 }
 
 .form-container {
@@ -38,7 +25,30 @@ body {
     padding: 20px;
 }
 
-.form-container .form-details .form-item {}
+.form-container .form-header {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.checkbox-container {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.checkbox-container label {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.diet-container {
+    display: flex;
+    padding: 10px;
+}
+
+.diet-container label {
+    padding: 5px;
+    font-size: 24px;
+}
 
 .form-container .submit-button {
     justify-content: center;
@@ -46,5 +56,18 @@ body {
     border: 1px solid;
     font-family: Bellota;
     font-size: 20px;
+    margin: 20px;
     padding: 10px;
+}
+
+.footer-basic {
+    align-items: baseline;
+    justify-content: center;
+    font-family: Bellota;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
 }

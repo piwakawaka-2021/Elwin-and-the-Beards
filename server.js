@@ -56,7 +56,9 @@ server.post("/results", (req, res) => {
         }
       }
     }
-    console.log(resultsArray)
+    resultsObject = { restaurant: resultsArray }
+    console.log(resultsObject)
+    res.render("results", resultsObject)
   })
 })
 module.exports = server

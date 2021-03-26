@@ -5,10 +5,11 @@ router.use(express.urlencoded({ extended: true }))
 
 // Routes
 
-router.post("/", (req, res) => {
+router.post("/results", (req, res) => {
   fs.readFile("./restaurants.json", "utf-8", (err, data) => {
-    const { restaurant, cuisines } = JSON.parse(data)
+    const { restaurant, cuisines } = data
     const formInfo = req.body
+    console.log(formInfo)
     let results = { filters: [], minutesAway: 0 }
     cuisines.forEach((e) => {
       if (formInfo.hasOwnProperty(e)) {
@@ -28,11 +29,12 @@ router.post("/", (req, res) => {
           restaurant[i].vegan == results.vegan &&
           restaurant[i].gluten == results.gluten
         ) {
+          console.log("true")
           resultsArray.push(restaurant[i])
         }
       }
     }
-    console.log(resultsArray)
+    // console.log(resultsArray)
   })
 })
 

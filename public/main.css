@@ -5,8 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3aafb9;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header {
@@ -60,6 +60,14 @@ body {
     padding: 10px;
 }
 
+.home-btn {
+    justify-content: flex-start;
+    background-color: transparent;
+    font-family: Bellota;
+    font-size: 20px;
+    margin: 20px;
+}
+
 .footer-basic {
     align-items: baseline;
     justify-content: center;
@@ -68,6 +76,33 @@ body {
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
+}
+
+.res-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.res-card {
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 2%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+}
+
+.res-inner {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.res-pic {
+    width: 100%;
+    border-radius: 2%;
 }

@@ -1,16 +1,16 @@
-<div>
+<div class="container">
   {{#each restaurant}}
-  <div class="res-list">
     <div class="res-card">
-      <ul class="res-inner">
-        {{!-- change fields to be shown here --}}
-        <li><img class="res-pic" src="{{image}}" alt="{{name}}"></a></li>
+      <div class="res-inner">
+        <div class="res-pic"><img src="{{image}}" alt="{{name}}"></a></div>
+
         <div class="res-details">
-          <li>{{name}}</li>
-          <li>{{cuisine}}</li>
+          <a href= {{location}} target="_blank"><p>{{name}}</p></a>
+          <p>{{cuisine}}</p>
+          <p></p>
         </div>
-      </ul>
+      </div>
+
     </div>
-  </div>
   {{/each}}
 </div>

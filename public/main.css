@@ -17,6 +17,14 @@ body {
     font-size: 2.5rem;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
 .form-container {
     display: flex;
     align-items: center;
@@ -60,14 +68,6 @@ body {
     padding: 10px;
 }
 
-.home-btn {
-    justify-content: flex-start;
-    background-color: transparent;
-    font-family: Bellota;
-    font-size: 20px;
-    margin: 20px;
-}
-
 .footer-basic {
     align-items: baseline;
     justify-content: center;
@@ -88,21 +88,37 @@ body {
 }
 
 .res-card {
+    display: flex;
     margin: 10px;
     border: 1px solid;
     border-radius: 2%;
-    height: 300px;
-    width: 300px;
+    height: 20rem;
+    width: 15rem;
     box-shadow: 5px 5px 10px;
 }
 
 .res-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 90%;
     list-style: none;
     padding-left: 0px;
     margin-top: 0px;
 }
 
 .res-pic {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 80%;
     border-radius: 2%;
+    overflow-x: hidden;
+}
+
+.res-details {
+    font-family: Bellota;
+    padding: 10px;
+    color;
 }

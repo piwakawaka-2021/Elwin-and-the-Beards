@@ -14,7 +14,7 @@
         "phone#":"04-385 6698",
         "vegan":true,
         "gluten":false,
-        "image": "./images/kk-malay.jpg"
+        "image": "/images/kk-malay.jpg"
         
 
         },
@@ -27,7 +27,7 @@
         "distance":9,
         "vegan":true,
         "gluten":"",
-        "image":"./images/one-sushi.jpg",
+        "image":"/images/one-sushi.jpg",
         "phone#":"04-382 8008"
     
         },
@@ -41,7 +41,7 @@
         "phone#":"04 210 4455",
         "vegan":true,
         "gluten":false,
-        "image":"./images/luckys.jpg"
+        "image":"/images/luckys.jpg"
         },
         {
         "id":4,
@@ -53,7 +53,7 @@
         "phone#":"04-382 8866",
         "vegan":true,
         "gluten":false,
-        "image":"./images/tommy.jpg"
+        "image":"/images/tommy.jpg"
         },
         {
         "id":5,
@@ -65,7 +65,7 @@
         "phone#":"04-382 8288",
         "vegan":true,
         "gluten":true,
-        "image":"./images/aunty.jpeg"
+        "image":"/images/aunty.jpeg"
         },
         {
             "id":6,
@@ -77,7 +77,7 @@
             "phone#":"04-382 8888",
             "vegan":true,
             "gluten":false,
-            "image":"./images/tasteofhome.jpg"
+            "image":"/images/tasteofhome.jpg"
         },
         {
             "id":7,
@@ -89,7 +89,7 @@
             "phone#":"022-597 9982",
             "vegan":true,
             "gluten":true,
-            "image":"./images/mother.jpg"
+            "image":"/images/mother.jpg"
         },
         {
             "id":8,
@@ -101,7 +101,7 @@
             "phone#":"021 266 6421",
             "vegan":true,
             "gluten":false,
-            "image":"./images/cityBowl.jpg"
+            "image":"/images/cityBowl.jpg"
         },
         {
             "id":9,
@@ -113,7 +113,7 @@
             "phone#":"",
             "vegan":true,
             "gluten":true,
-            "image":"./images/capMarket.jpg"
+            "image":"/images/capMarket.jpg"
         },
         {
             "id":10,    
@@ -125,7 +125,7 @@
             "phone#":"04-382 8884",
             "vegan":true,
             "gluten":false,
-            "image":"./images/tasteOfIndia.jpg"
+            "image":"/images/tasteOfIndia.jpg"
           },
           {
             "id":11,    
@@ -137,7 +137,7 @@
             "phone#":"04-389 9933",
             "vegan":true,
             "gluten":true,
-            "image":"./images/moon.jpg"
+            "image":"/images/moon.jpg"
           },
           {
             "id":12,    
@@ -149,7 +149,7 @@
             "phone#":"04-386 3999",
             "vegan":true,
             "gluten":false,
-            "image":"./images/burgerWis.jpg"
+            "image":"/images/burgerWis.jpg"
           },
           {
             "id":13,    
@@ -161,7 +161,7 @@
             "phone#":"",
             "vegan":true,
             "gluten":false,
-            "image":""
+            "image":"/images/ekim.jpg"
           },
           {
             "id":14,    
@@ -173,7 +173,7 @@
             "phone#":"04-473 3311",
             "vegan":true,
             "gluten":true,
-            "image":"./images/abrakebabra.jpg"
+            "image":"/images/abrakebabra.jpg"
           },
           {
             "id":15,    
@@ -185,7 +185,7 @@
             "phone#":"04-384 6813",
             "vegan":true,
             "gluten":false,
-            "image":"./images/camelGrill.jpg"
+            "image":"/images/camelGrill.jpg"
           },
           {
             "id":16,    
@@ -197,7 +197,7 @@
             "phone#":"0800 732 627",
             "vegan":true,
             "gluten":true,
-            "image":"./images/wellySeaMarket.jpg"
+            "image":"/images/wellySeaMarket.jpg"
           },
           {
             "id":17,    
@@ -209,7 +209,7 @@
             "phone#":"04-803 3647",
             "vegan":true,
             "gluten":true,
-            "image":"./images/hells.jpg"
+            "image":"/images/hells.jpg"
           },
           {
             "id":18,    
@@ -221,7 +221,7 @@
             "phone#":"04-801 8880",
             "vegan":true,
             "gluten":true,
-            "image":"./images/santeria.jpg"
+            "image":"/images/santeria.jpg"
           },
           {
             "id":19,    
@@ -233,7 +233,7 @@
             "phone#":"04-381 2321",
             "vegan":true,
             "gluten":true,
-            "image":"./images/rogue.jpg"
+            "image":"/images/rogue.jpg"
           },
           {
             "id":20,    
@@ -245,7 +245,7 @@
             "phone#":"04-384 6020",
             "vegan":true,
             "gluten":true,
-            "image":"./images/scopa.jpg"
+            "image":"/images/scopa.jpg"
           },
           {
             "id":21,    
@@ -257,7 +257,7 @@
             "phone#":"04-385 9106",
             "vegan":true,
             "gluten":true,
-            "image":"./images/nandos.jpg"
+            "image":"/images/nandos.jpg"
           },
           {
             "id":22,    
@@ -269,7 +269,7 @@
             "phone#":"04-385 6118",
             "vegan":false,
             "gluten":true,
-            "image":"./images/prestons.jpg"
+            "image":"/images/prestons.jpg"
           },
           {
             "id":23,    
@@ -281,7 +281,7 @@
             "phone#":"",
             "vegan":false,
             "gluten":false,
-            "image":"./images/soulShack.jpg"
+            "image":"/images/soulShack.jpg"
           },
           {
             "id":24,    
@@ -293,7 +293,7 @@
             "phone#":"04-801 5006",
             "vegan":true,
             "gluten":true,
-            "image":"./images/phuThaiEsarn.jpg"
+            "image":"/images/phuThaiEsarn.jpg"
           },
           {
             "id":25,    
@@ -305,7 +305,7 @@
             "phone#":"021 118 0333",
             "vegan":true,
             "gluten":true,
-            "image":"./images/tacoQueen.jpg"
+            "image":"/images/tacoQueen.jpg"
           },
           {
             "id":26,    
@@ -317,7 +317,7 @@
             "phone#":"04-802 4442",
             "vegan":true,
             "gluten":true,
-            "image":"./images/nicolinis.jpg"
+            "image":"/images/nicolinis.jpg"
           },
           {
             "id":27,    
@@ -329,7 +329,7 @@
             "phone#":"04-382 8585",
             "vegan":true,
             "gluten":true,
-            "image":"./images/chow.jpg"
+            "image":"/images/chow.jpg"
           },
           {
             "id":28,    
@@ -341,7 +341,7 @@
             "phone#":"04-389 0975",
             "vegan":true,
             "gluten":true,
-            "image":"./images/vivaMexico.jpg"
+            "image":"/images/vivaMexico.jpg"
           },
           {
             "id":29,    
@@ -353,7 +353,7 @@
             "phone#":"020 443 9329",
             "vegan":true,
             "gluten":true,
-            "image":"./images/heyDay.jpg"
+            "image":"/images/heyDay.jpg"
           },
           {
             "id":30,    
@@ -365,7 +365,7 @@
             "phone#":"04-499 9041",
             "vegan":true,
             "gluten":true,
-            "image":"./images/newWorld.jpg"
+            "image":"/images/newWorld.jpg"
           }
 
 

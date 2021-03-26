@@ -17,6 +17,7 @@ server.engine(
   })
 )
 server.set("view engine", "hbs")
+server.use(express.static("public"));
 
 server.get("/", (req, res) => {
   const viewData = {
@@ -27,3 +28,5 @@ server.get("/", (req, res) => {
 })
 
 module.exports = server
+
+

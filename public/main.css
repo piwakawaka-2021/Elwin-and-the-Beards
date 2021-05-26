@@ -79,6 +79,7 @@ body {
     bottom: 0;
 }
 
+
 .res-list {
     display: flex;
     flex-direction: row;
@@ -119,5 +120,262 @@ body {
 .res-details {
     font-family: Bellota;
     padding: 10px;
-    color;
+}
+@media screen and (max-width: 728px) {
+   body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:orange;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.logo {
+max-width: 500px;
+max-height: 500px;
+}
+.header {
+    display: flex;
+    text-align: center;
+    color: #051014;
+    font-family: Bellota;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Bellota;
+    padding: 20px;
+}
+
+.form-container .form-header {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.checkbox-container {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.checkbox-container label {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.diet-container {
+    display: flex;
+    padding: 10px;
+}
+
+.diet-container label {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.form-container .submit-button {
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid;
+    font-family: Bellota;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer-basic {
+    align-items: baseline;
+    justify-content: center;
+    font-family: Bellota;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.res-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.res-card {
+    display: flex;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 2%;
+    height: 20rem;
+    width: 15rem;
+    box-shadow: 5px 5px 10px;
+}
+
+.res-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 90%;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.res-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 2%;
+    overflow-x: hidden;
+}
+
+.res-details {
+    font-family: Bellota;
+    padding: 10px;
+}
+}
+@media screen and (max-width: 320px) {
+   body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.logo {
+max-width: 300px;
+max-height: 300px;
+}
+.header {
+    display: flex;
+    text-align: center;
+    color: #051014;
+    font-family: Bellota;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Bellota;
+    padding: 20px;
+}
+
+.form-container .form-header {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.checkbox-container {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.checkbox-container label {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.diet-container {
+    display: flex;
+    padding: 10px;
+}
+
+.diet-container label {
+    padding: 5px;
+    font-size: 24px;
+}
+
+.form-container .submit-button {
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid;
+    font-family: Bellota;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer-basic {
+    align-items: baseline;
+    justify-content: center;
+    font-family: Bellota;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.res-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.res-card {
+    display: flex;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 2%;
+    height: 20rem;
+    width: 15rem;
+    box-shadow: 5px 5px 10px;
+}
+
+.res-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 90%;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.res-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 2%;
+    overflow-x: hidden;
+}
+
+.res-details {
+    font-family: Bellota;
+    padding: 10px;
+}
 }

@@ -34,7 +34,7 @@
         {
         "id" : 3,
         "name":"Lucky Burger",
-        "cuisine":"Burger",
+        "cuisine":"Burgers",
         "price":2,
         "distance":9,
         "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/LUCKY+Courtenay+Place+105+Courtenay+Place,+Te+Aro,+Wellington+6011/@-41.2947424,174.7721994,16z/data=!4m14!4m13!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38afda814a7c1f:0xbd22e9cf35f4e6fc!2m2!1d174.7789672!2d-41.2926815!3e2",
@@ -58,7 +58,7 @@
         {
         "id":5,
         "name":"Aunty Mena's",
-        "cuisine":"vegantarian",
+        "cuisine":"Vegetarian",
         "price":1,
         "distance":4,
         "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/Aunty+Mena's+vegantarian+Restaurant+%26+Cafe+Cuba+Street,+Te+Aro,+Wellington/@-41.2954349,174.7736891,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38afd837a9a70d:0xbe09a540df7ca93e!2m2!1d174.7754728!2d-41.2939908!3e2",
@@ -142,7 +142,7 @@
           {
             "id":12,    
             "name":"Burger Wisconsin",
-            "cuisine":"Burger",
+            "cuisine":"Burgers",
             "price":2,
             "distance":30,
             "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy,+Cuba+Street,+Te+Aro,+Wellington/Burger+Wisconsin,+Waitoa+Road,+Hataitai,+Wellington/@-41.2934702,174.7784077,19z/data=!4m14!4m13!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38af9556eb617f:0x8c752a8d18d955ca!2m2!1d174.7946231!2d-41.3040046!3e2",
@@ -262,7 +262,7 @@
           {
             "id":22,    
             "name":"Preston's",
-            "cuisine":"Butcher",
+            "cuisine":"Mixed",
             "price":1,
             "distance":7,
             "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/Preston's+Master+Butchers+Torrens+Terrace,+Mount+Cook,+Wellington/@-41.297915,174.7723933,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38afdf63ef41c9:0x3d5eb9ad12c181f1!2m2!1d174.773399!2d-41.2993671",
@@ -274,7 +274,7 @@
           {
             "id":23,    
             "name":"Soul Shack",
-            "cuisine":"Fried Chicken",
+            "cuisine":"Mixed",
             "price":1,
             "distance":8,
             "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/Soul+Shack+Dixon+Street,+Te+Aro,+Wellington/@-41.2942977,174.7720598,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d3f536df584becd:0x57612fd4479c7388!2m2!1d174.7773863!2d-41.2918319",
@@ -298,7 +298,7 @@
           {
             "id":25,    
             "name":"Taco Queen",
-            "cuisine":"Latin",
+            "cuisine":"Tacos",
             "price":3,
             "distance":13,
             "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/Taco+Queen,+2%2F25+Courtenay+Place,+Te+Aro,+Wellington+6011/@-41.2948644,174.7760502,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38afda97128dc5:0x990ccfcadfbb4402!2m2!1d174.7822251!2d-41.2939771",
@@ -346,7 +346,7 @@
           {
             "id":29,    
             "name":"Hey Day",
-            "cuisine":"Pub",
+            "cuisine":"Mixed",
             "price":2,
             "distance":0,
             "location":"https://www.google.com/maps/dir/Enspiral+Dev+Academy+Cuba+Street,+Te+Aro,+Wellington/Heyday+Beer+Co,+264a+Cuba+Street,+Te+Aro,+Wellington+6011/@-41.2965914,174.7717563,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x6d38afd8bc7458b3:0x2bc049e2b6f32a49!2m2!1d174.7742193!2d-41.2969092!1m5!1m1!1s0x6d38afd8a04e2785:0x5c1fb19199cccd94!2m2!1d174.7734754!2d-41.2966724!3e2",

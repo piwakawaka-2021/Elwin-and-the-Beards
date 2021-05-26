@@ -8,7 +8,6 @@ body {
     padding-left: 25%;
     padding-right: 25%;
 }
-
 .header {
     display: flex;
     text-align: center;
@@ -71,3 +70,13 @@ body {
     position: absolute;
     bottom: 0;
 }
+/* @media screen and (max-width: 728px) {
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        background-color: blue;
+    }
+} */
